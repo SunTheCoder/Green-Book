@@ -1,0 +1,245 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(117, 208, 117);
+    color: rgb(35, 131, 35);
+    
+    
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    position: relative;
+    color: rgb(197, 244, 197);
+    flex-grow: 1;
+    /* padding: 0 1.5em 0 1.5em; */
+    margin-left: .6em;
+
+}
+
+
+
+.nav {
+    
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(101, 177, 101);
+    border-radius: .5em ;
+    align-items: center;
+    
+}
+
+.topNav {
+    
+    top: 10px;
+    text-decoration: none;
+    /* padding: 0 1.5em 0 1.5em; */
+    margin-left: 1em;
+    
+}
+
+.topSideNav {
+    
+    top: 10px;
+    padding: 0 .5em 0 .5em;
+    text-decoration: none;
+    margin-right: 2.3em
+
+    
+}
+
+div > a {
+    color: rgb(197, 244, 197);
+}
+
+#two {
+    flex-grow: .4;
+}
+
+.navigation {
+    color: rgb(35, 131, 35);
+    
+}
+
+.nav >a:hover {
+    
+    color:white
+    
+}
+
+span {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items:flex-start;
+    align-items: center; */
+}
+
+.sideNav {
+    position: absolute;
+    
+    top: 7em;
+    height: 18em;
+    width: 8em;
+    background-color: rgb(101, 177, 101);
+    border-radius: .5em .5em 30% 30%;
+    
+}
+
+ul {
+    list-style: none;
+    display: inline;
+    
+}
+
+li {
+    padding-top: 3em;
+    margin-left: 1em;
+    
+}
+
+li > a{
+    color: rgb(197, 244, 197);
+    text-decoration: none;  
+}
+
+li > a:hover {
+    color:white;
+   
+    
+}
+
+.treespace {
+    display: flex;
+    border: solid 3px rgb(117, 208, 117);
+    border-radius: .5em .5em .5em 5em;
+    background-color: rgb(197, 244, 197);
+    height: 35em;
+    width: 50em;
+    margin-left: 11em;
+    justify-content: center;
+}
+
+#tree{
+    position: relative;
+    /* top: 1em; */
+    height: 2em;
+    width: 50em;
+    background-color: black;
+    text-align: center;
+    border-radius: .3em .3em 0 0;
+    display: none;
+}
+
+.treespace:hover{
+   
+    /* display: block; */
+}
+
+#head {
+    position: relative;
+    height: 2em;
+    width: 4em;
+    border-radius: 0em 0em 70% .5em;
+    background-color: rgb(117, 208, 117);
+    color: rgb(197, 244, 197);
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
+.bottomspacer {
+    height: 3em;
+}
+
+
+footer {
+
+    /* display: flex; */
+    
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(101, 177, 101);
+    border-radius: .5em;
+    align-items: center;
+}
+
+.petals {
+    position: absolute;
+    border-radius: 0em 0em 70% .5em;
+    top: 7.5em;
+    
+    /* background-color:  rgb(117, 208, 117); */
+
+    
+}
+
+span.petals {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#petal1, #petal2{
+    
+    border-bottom: solid rgb(117, 208, 117) 3px;
+    
+    margin: 5em 1em 1em 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items:end;
+    ;
+    /* margin-right: 7em;
+    margin-left: 7em; */
+    height: 6em;
+    width: 10em;
+    /* text-align:center; */
+    /* background-color: black ; */
+}
+
+#petal1 {
+    border-right: solid rgb(117, 208, 117) 3px;
+    border-radius: 0 0 40% 0;
+    position: relative;
+    left: .5em;
+    
+}
+
+#petal2 {
+    border-left: solid rgb(117, 208, 117) 3px;
+    border-radius: 0 0 0 40%;
+    position: relative;
+    right: .5em;
+}
+
+#petalshape1 {
+    position: absolute;    
+    left: 22em;
+    top: 17.70em;
+    background-color: rgb(117, 208, 117);
+    height: 2em;
+    width: 4em;
+    border-radius: 2em 2em 2em 2em;
+    text-align: center;
+}
+
+#petalshape2 {
+    position: absolute; 
+    left: 47.3em;
+    top: 17.70em;   
+    background-color: rgb(117, 208, 117);
+    height: 2em;
+    width: 4em;
+    border-radius: 2em 2em 2em 2em;
+    text-align: center;
+    
+}
+
+
+/* 
+flip tree
+bloom represetns the community
+grows with growth of community
+ */
